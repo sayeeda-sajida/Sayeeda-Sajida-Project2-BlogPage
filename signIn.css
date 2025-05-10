@@ -1,0 +1,157 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .component1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  
+  form {
+    background-color: #e908c048;
+    color:  #b70396e6;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(193, 68, 127, 0.605);
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: large;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #650d53;
+    color: #eed7ef;
+  }
+  
+  button {
+    background-color: #180218;
+    color: #ca8ecc;
+  }
+   
+  .btn1 {
+    background-color: #180218;
+    color: #ca8ecc;
+    width: max-content;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #963e8a;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #683160;
+  }
+  
+  p {
+    margin-top: 1rem;
+    color: rgb(91, 12, 71);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Form Table */
+.reset-table {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reset-table td {
+  padding: 10px;
+}
+
+/* Input Fields */
+.reset-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Error Message */
+.error-message {
+  color: rgba(255, 0, 102, 0.913);
+  text-align: center;
+  margin-top: 10px;
+}
+.posts{
+  position: absolute;
+  top: 200px;
+  display: flex;
+}
+.button{
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
